@@ -1,0 +1,37 @@
+[
+    {
+        "district": "Kanpur Nagar",
+        "disease": "Dengue",
+        "prediction": 320,
+        "phc_status": "\u2705 STABLE",
+        "chc_status": "\u2705 STABLE",
+        "spillover": null,
+        "action": "MONITOR"
+    },
+    {
+        "district": "Leh",
+        "disease": "Acute Diarrhoeal Disease",
+        "prediction": 120,
+        "phc_status": "\u2705 STABLE",
+        "chc_status": "\ud83d\udea8 COLLAPSE",
+        "spillover": {
+            "name": "Badgam",
+            "distance": "12.1 km",
+            "status": "ABSORBING"
+        },
+        "action": "DEPLOY CENTRAL TEAM"
+    },
+    {
+        "district": "Aizawl",
+        "disease": "Dengue",
+        "prediction": 582,
+        "phc_status": "\u26a0\ufe0f OVERRUN",
+        "chc_status": "\ud83d\udea8 COLLAPSE",
+        "spillover": {
+            "name": "Serchhip",
+            "distance": "44.3 km",
+            "status": "ABSORBING"
+        },
+        "action": "DEPLOY CENTRAL TEAM"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "district": "Dehradun ",
+        "scenario": "Malaria Outbreak (300.0mm Rain)",
+        "prediction": {
+            "cases": 2787,
+            "drivers": "Weather: 26.0C, Rain: 300.0mm"
+        },
+        "capacity": {
+            "hospitals": 359,
+            "est_bed_capacity": 1654,
+            "sanitation_level": "83.9%"
+        },
+        "analysis": {
+            "risk_status": "CRITICAL STRESS",
+            "collapse_probability": "33.7%",
+            "reasoning": "Predicted 2787 cases vs Capacity for 1654. Sanitation multiplier: 1.0x."
+        },
+        "recommendation": "\u26a0\ufe0f URGENT: Hospitals at max capacity. Divert patients to neighboring districts."
+    },
+    {
+        "district": "Kanpur Nagar ",
+        "scenario": "Dengue Outbreak (300.0mm Rain)",
+        "prediction": {
+            "cases": 2514,
+            "drivers": "Weather: 32.0C, Rain: 300.0mm"
+        },
+        "capacity": {
+            "hospitals": 4281,
+            "est_bed_capacity": 18507,
+            "sanitation_level": "77.5%"
+        },
+        "analysis": {
+            "risk_status": "STABLE",
+            "collapse_probability": "2.7%",
+            "reasoning": "Predicted 2514 cases vs Capacity for 18507. Sanitation multiplier: 1.0x."
+        },
+        "recommendation": "Routine Surveillance"
+    },
+    {
+        "district": "Leh(Ladakh) ",
+        "scenario": "Acute Diarrhoeal Disease Outbreak (50.0mm Rain)",
+        "prediction": {
+            "cases": 406,
+            "drivers": "Weather: 18.0C, Rain: 50.0mm"
+        },
+        "capacity": {
+            "hospitals": 39,
+            "est_bed_capacity": 169,
+            "sanitation_level": "42.4%"
+        },
+        "analysis": {
+            "risk_status": "SYSTEM COLLAPSE",
+            "collapse_probability": "72.1%",
+            "reasoning": "Predicted 406 cases vs Capacity for 169. Sanitation multiplier: 1.5x."
+        },
+        "recommendation": "\ud83d\udea8 EMERGENCY: Patient load exceeds hospital capacity by 200%. Deploy Field Hospitals."
+    },
+    {
+        "district": "Patna ",
+        "scenario": "Cholera Outbreak (400.0mm Rain)",
+        "prediction": {
+            "cases": 723,
+            "drivers": "Weather: 30.0C, Rain: 400.0mm"
+        },
+        "capacity": {
+            "hospitals": 2340,
+            "est_bed_capacity": 8658,
+            "sanitation_level": "61.0%"
+        },
+        "analysis": {
+            "risk_status": "STABLE",
+            "collapse_probability": "1.7%",
+            "reasoning": "Predicted 723 cases vs Capacity for 8658. Sanitation multiplier: 1.0x."
+        },
+        "recommendation": "Routine Surveillance"
+    }
+]

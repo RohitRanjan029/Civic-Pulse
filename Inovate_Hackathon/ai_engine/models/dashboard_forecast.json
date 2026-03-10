@@ -1,0 +1,46 @@
+[
+    {
+        "district": "Kanpur Nagar",
+        "disease": "Dengue",
+        "forecast_cases": 2514,
+        "risk_level": "CRITICAL",
+        "drivers": {
+            "rain": "120.5mm",
+            "temp": "32.0C"
+        },
+        "action_plan": "DEPLOY RAPID RESPONSE TEAM"
+    },
+    {
+        "district": "Kanpur Nagar",
+        "disease": "Acute Diarrhoeal Disease",
+        "forecast_cases": 176,
+        "risk_level": "Moderate",
+        "drivers": {
+            "rain": "15.0mm",
+            "temp": "32.0C"
+        },
+        "action_plan": "Routine Surveillance"
+    },
+    {
+        "district": "Dehradun",
+        "disease": "Malaria",
+        "forecast_cases": 2799,
+        "risk_level": "CRITICAL",
+        "drivers": {
+            "rain": "250.0mm",
+            "temp": "26.0C"
+        },
+        "action_plan": "DEPLOY RAPID RESPONSE TEAM"
+    },
+    {
+        "district": "Patna",
+        "disease": "Cholera",
+        "forecast_cases": 957,
+        "risk_level": "CRITICAL",
+        "drivers": {
+            "rain": "300.0mm",
+            "temp": "34.0C"
+        },
+        "action_plan": "DEPLOY RAPID RESPONSE TEAM"
+    }
+]

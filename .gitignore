@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+*.xlsx
+*.xlsx
+*.csv
+TEmp/
+*.pdf
+data/
+Data/
+Proj/
